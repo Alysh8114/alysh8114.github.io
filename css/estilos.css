@@ -1,0 +1,67 @@
+
+/* MENUPRINCIPAL*/
+/*PASO 1 
+Quitar estilos de viñetas*/
+ul{
+    list-style-type: none;
+}
+
+/*PASO 2: Quitar margin y padding*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/*PASO 3: Aplicar formato al menu principal*/
+nav li a{
+    text-decoration: none;
+    color: #fff;
+    background-color: #0A1523;
+    padding: 10px 15px;
+    display: block;
+    border-radius: 10px;
+}
+
+/*PASO 4: Acomodaremos el menu principal de forma vertical*/
+.menuprincipal{
+    float: left;
+}
+
+/*PASO 5: Aplicar formato a la barra de menu*/
+nav{
+    width: 370px;
+    height: 50px;
+    margin: auto;
+}
+
+/*PASO 6: Aplicar efecto usando hover*/
+nav li a:hover{
+    background-color: #b7b7b7;
+}
+
+
+.celular{
+    border-radius: 4px;
+    border: 1px solid;
+    height: 450px;
+    width: 350px;
+    margin: 20px;
+    padding: 10px;
+    background-color:#fff;
+    float: right;
+}
+.celular a{
+    text-decoration: none;
+    color: #fff;
+    position: sticky;
+    border-radius: 10px;
+    height: 100px;
+    width: 90%;
+    padding: 15px;
+    background-color:#0A1523;
+}
+  
+.celular a:hover{
+    background-color:  #22ce22;
+}
+
